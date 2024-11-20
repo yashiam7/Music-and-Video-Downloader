@@ -1,7 +1,6 @@
 import pytube
 vid=[".avi",".mp4",".mkv",".mov"]
 aud=[".wav",".mp3",".aac"]
-api_key="API_KEY" #your youtube api key
 def youtubedownload(url="",dir="file to be saved in directory"):
     while True:
         va=input("Enter Download Music or Video[aud/vid]:").lower()
